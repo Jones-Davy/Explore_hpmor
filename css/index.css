@@ -405,7 +405,7 @@ input {
 
   .nav__link {
     color: var(--white-color);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
     text-transform: initial;
   }
 
@@ -547,14 +547,15 @@ input {
     background-color: var(--white-color);
     color: #666666;
     position: absolute;
+    margin-top: 0;
+
   }
 
   .btn,
   .btn:link,
   .btn:visited {
-    margin-top: 10rem;
     right: 50%;
-    bottom: 0;
+    bottom: 3rem;
 
   }
 
